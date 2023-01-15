@@ -13,7 +13,7 @@ from models.simulation import SimulationModel
 class Views(QMainWindow):
     def __init__(self, simulator: SimulationModel):
         super().__init__()
-        self.setWindowTitle("Multiple Plots")
+        self.setWindowTitle("Sensor Aggregation Simulation")
 
         self.simulator = simulator()
         self.listRoom = self.simulator.get_roomArea()
