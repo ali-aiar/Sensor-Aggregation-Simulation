@@ -8,7 +8,7 @@ class TestSimulationModel(unittest.TestCase):
        self.simulation_model = SimulationModel()
 
     def test_generate_data(self):
-       self.simulation_model.generate_data()
+       self.simulation_model.generate_data(1)
        data =self.simulation_model.data['array'][0]
        self.assertIsInstance(data['temperature'], int)
        self.assertIsInstance(data['humidity'], int)
