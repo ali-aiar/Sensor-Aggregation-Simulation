@@ -13,24 +13,28 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
 ```bash
 git clone https://github.com/ali-aiar/Sensor-Aggregation-Simulation.git
 ```
-2. Create a virtual environment 
+2. Go to the main directory 
+```bash
+cd Sensor-Aggregation-Simulation
+```
+3. Create a virtual environment 
 ```bash
 python -m venv venv
 ```
-3. Activate the virtual environment
+4. Activate the virtual environment
 ```bash
 source venv/bin/activate  # Linux or macOS
 .\venv\Scripts\activate  # Windows
 ```
-4. Install the required packages by running the following command:
+5. Install the required packages by running the following command:
 ```bash
 pip install -r requirements.txt
 ```
-5. Run the program by executing the following command:
+6. Run the program by executing the following command:
 ```bash
 python main.py
 ```
-6. To deactivate the virtual environment, run:
+7. To deactivate the virtual environment, run:
 ```bash
 deactivate
 ```
