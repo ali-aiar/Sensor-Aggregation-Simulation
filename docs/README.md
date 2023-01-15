@@ -35,7 +35,7 @@ python main.py
 deactivate
 ```
 ## Running the tests
-To run the test you must be in the ./src directory. 
+To run the test you must be in the ./ directory. 
 ### Test the models
 The test will use unittest library, to know if the model working as intended and generating random values by giving room id.
 ```bash
